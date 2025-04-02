@@ -2,6 +2,8 @@
 
 This repository provides a Python-based automation tool to process spreadsheet files, specifically Excel workbooks. It is designed to perform tasks like adjusting prices and generating charts on the first sheet of the workbook. The automation is built using Python and leverages the `openpyxl` library to interact with Excel files.
 
+The project is built using IDE PyCharm
+
 ## Features
 
 - **Adjusting values**: The `process_workbook` function multiplies values in the third column (starting from the second row) by 0.9 and updates the fourth column with the corrected values.
